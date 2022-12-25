@@ -36,6 +36,31 @@
     }
   },
   "dependencies": {
-    "nano-staged": "^0.8.0"
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/commands": "^6.1.2",
+    "@codemirror/gutter": "^0.19.9",
+    "@codemirror/highlight": "^0.19.8",
+    "@codemirror/history": "^0.19.2",
+    "@codemirror/lang-markdown": "^6.0.5",
+    "@codemirror/language": "^6.3.2",
+    "@codemirror/language-data": "^6.1.0",
+    "@codemirror/matchbrackets": "^0.19.4",
+    "@codemirror/state": "^6.1.4",
+    "@codemirror/theme-one-dark": "^6.1.0",
+    "@codemirror/view": "^6.7.1",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@jsdevtools/readdir-enhanced": "^6.0.4",
+    "@retronav/ixora": "^0.3.2",
+    "codemirror": "^6.0.1",
+    "github-markdown-css": "^5.1.0",
+    "hast-util-sanitize": "^4.0.0",
+    "nano-staged": "^0.8.0",
+    "react-router-dom": "^6.5.0",
+    "remark-gfm": "^3.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-react": "^9.0.1",
+    "unified": "^10.1.2"
   }
 }
