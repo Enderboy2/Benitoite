@@ -20,6 +20,7 @@
     }
   ],
   "configurations": [
+
     {
       "name": "Debug Main Process",
       "type": "pwa-node",
@@ -30,7 +31,7 @@
       },
       "runtimeArgs": [
         "--no-sandbox",
-        "--remote-debugging-port=9229",
+        "--remote-debugging-port=3000",
         "."
       ],
       "envFile": "${workspaceFolder}/.vscode/.debug.env",
@@ -38,7 +39,7 @@
     },
     {
       "name": "Debug Renderer Process",
-      "port": 9229,
+      "port": 3000,
       "request": "attach",
       "type": "pwa-chrome",
       "timeout": 60000,

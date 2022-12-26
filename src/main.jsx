@@ -6,6 +6,6 @@ import { faB, faCheckSquare, faCoffee, faDatabase, faHouseLaptop, faS, faWindowM
 import { library } from '@fortawesome/fontawesome-svg-core';
 library.add(faB, faS, faHouseLaptop, faCheckSquare, faCoffee, faDatabase, faWindowMaximize, faBars, faGear,faFileCirclePlus,faFolderPlus,faSearch)
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <App />
 )

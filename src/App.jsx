@@ -5,7 +5,7 @@ import SideBar from './components/SideBar';
 import WelcomePage from './pages/welcome_page/WelcomePage';
 import MainEditor from "./pages/main_editor/MainEditor";
 
-const App: React.FC = () => {
+export default function App(){
   return (
   <BrowserRouter>
     <Routes>
@@ -15,5 +15,3 @@ const App: React.FC = () => {
   </BrowserRouter>
   );
 }
-
-export default App

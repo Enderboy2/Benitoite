@@ -2,12 +2,11 @@ import { Link } from "react-router-dom";
 import read_dir from "@/utils/dir_reader";
 
 
-async function assign(path:any) {
+async function assign(path) {
   var files = read_dir(path);
   console.log(files)
 }
-
-const WelcomePage: React.FC = () => {
+export default function WelcomePage(){
   return (
     <div className="flex flex-col justify-center w-screen h-screen bg-background">
       <div className="flex justify-center top-10 mb-28">
@@ -23,4 +22,4 @@ const WelcomePage: React.FC = () => {
   );
 }
 
-export default WelcomePage
+
