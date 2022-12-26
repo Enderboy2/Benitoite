@@ -33,7 +33,6 @@ Start the server
 ## Features
 
 - Live previews
-- Fullscreen mode
 - Cross platform
 
 ## Tech Stack
