@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import read_dir from "../utils/dir_reader";
 
 var workspace_name = "youssef's Workspace"
 
 const SideBar = ()=>{
   const [open ,setopen] = useState(false);
+  console.log(read_dir('src/data'));
   return (
     <div className={`h-screen flex ${open ? "w-fit":"w-16"}`}>
       <div className="h-screen w-16 bg-dark-background">
@@ -27,6 +29,8 @@ const SideBar = ()=>{
           <div id="search" className="text-text-color w-10 h-10 bg-dark-background m-3 rounded-lg flex justify-center items-center hover:bg-text-color hover:text-dark-background-2 ease-out duration-300">
             <FontAwesomeIcon icon="search" />
           </div>
+        </div>
+        <div className="w-full h-full mt-2" id="files_list">
         </div>
       </div>
     </div>

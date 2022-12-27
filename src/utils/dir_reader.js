@@ -2,8 +2,8 @@ import React from "react";
 import getsub from "./data_converter";
 const fs = require('fs').promises;
 
-async function read_dir(directory : any){
-  let files: any[] = [];
+async function read_dir(directory){
+  let files = [];
 
   const items = await fs.readdir(directory,{ withFileTypes: true })
 
@@ -16,6 +16,6 @@ async function read_dir(directory : any){
       files.push(`${directory}/${item.name}`)
     }
   }
-  return files
+  return getsub([items, files]);
 }
 export default read_dir
